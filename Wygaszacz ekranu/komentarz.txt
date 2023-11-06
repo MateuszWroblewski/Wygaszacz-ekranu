@@ -1,0 +1,11 @@
+Szanowny Panie Profesorze
+
+W tym zipie pozwolilem sobie upchnac az 3 pliki .c ktore zasadniczo niczym sie nie roznia
+Zatem pozwole je sobie krociutko opisac
+1) babelki_sie_materializuja.c: tutaj, poniewaz nie bylo to doprecyzowane w tresci zadania, babelki tworzace wygaszacz ekranu po prostu pojawiaja sie po uruchomieniu programu.
+2) babelki_wyplywaja.c . Tutaj tworze pewna abstrakcyjna ramke na zewnatrz ekranu na ktorej umieszczam babelki, ktore nastepnie wplywaja sobie spokojnie na ekran, zamiast pojawic sie na nim znikad
+3) projekt.c: tutaj dochodzimy do clou całej tej notatki. Zgodnie z poleceniem program miał działać jak wygaszacz ekranu. Przeszukując otchłań internetu znalazłem biblioteki, które pozwalały na interakcje z myszą, niestety z nieznanych przyczyn nie chciały współpracować z moim laptopem. Wszedłszy jednak w kod tychże bibliotek, dostrzegłem, iż korzystają one nieodzownie z "windows.h" i stąd niemożność kooperacji z moim urządzeniem oraz brak licznych istotnych funkcji, ktore byly w tej bibliotece pierwotnie obecne. Niemniej, ponieważ wymuszenie na programie działania do ruchu myszy, a nie przez około 10s (tak jak dwa wcześniejsze pliki) wymagało zmiany tylko warunku jednej z pętli while, pozwoliłem sobie zmienić ten warunek w stosowny sposób, nie miałem jednak - z oczywistych przyczyn - sposobu aby sprawdzić czy po tej kosmetycznej zmianie program dalej się kompiluje i robi co ma robić (Gdyby udało się Panu Profesorowi to sprawdzić, byłby niezmiernie wdzięczny za przekazanie tejże informacji). Poza tym, plik ten jest przystający do babelki_wyplywaja.c
+
+I jeszcze jedna uwaga: mi to zajęło dużo czasu, żeby zmusić gcc do współpracy z biblioteką graficzną, i jeżli Pan Profesor wolałby taką formę sprawdzenia tej pracy, to mogę wysłać nagrania mojego ekranu, gdyż skompilowanie tego kodu było (przynajmniej dla mnie) nie całkiem trywialne
+ 
+Mateusz Wroblewski
